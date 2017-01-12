@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<section id="player1" data-player="1">
+			<div class="form">
+				<div class="score"></div>
+				<input type="text" class="field">
+				<span class="countdown"></span>	
+			</div>
+			<div class="done">
+			</div>
+		</section>
+
+		<section id="player2" data-player="2">
+			<div class="form">
+				<div class="score"></div>
+				<input type="text" class="field">
+				<span class="countdown"></span>	
+			</div>
+			<div class="done"></div>
+		</section>
+	</div>
+
+	<script src="vendors.js"></script>
+	<script src="script.js"></script>
+	<script>
+		new Game()	
+	</script>
+</body>
+</html>
